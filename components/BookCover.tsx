@@ -6,11 +6,11 @@ import BookCoverSvg from "./BookCoverSvg";
 type BookCoverVariant = "extraSmall" | "small" | "medium" | "regular" | "wide";
 
 const variantStyles: Record<BookCoverVariant, string> = {
-  extraSmall: "book_cover_etra_small",
-  small: "book_cover_small",
-  medium: "book_cover_medium",
-  regular: "book_cover_regular",
-  wide: "book_cover_wide",
+  extraSmall: "book-cover_extra_small",
+  small: "book-cover_small",
+  medium: "book-cover_medium",
+  regular: "book-cover_regular",
+  wide: "book-cover_wide",
 };
 
 interface Props {
